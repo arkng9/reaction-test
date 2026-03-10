@@ -8,7 +8,7 @@ box.addEventListener("click", () => {
 
 if(!waiting){
 
-box.textContent = "Bekle...";
+box.textContent = "Bekle....";
 box.style.background = "red";
 
 let delay = Math.random()*3000+1000;
